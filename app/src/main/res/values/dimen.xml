@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="gyg_padding_1x">2dp</dimen>
+    <dimen name="gyg_padding_2x">4dp</dimen>
+    <dimen name="gyg_padding_4x">8dp</dimen>
+    <dimen name="gyg_padding_8x">16dp</dimen>
+    <dimen name="padding_bottom">20dp</dimen>
+
+    <dimen name="card_height">160dp</dimen>
+    <dimen name="details_page_image_size">200dp</dimen>
+    <dimen name="card_image_width">100dp</dimen>
+    <dimen name="progress_bar_height">40dp</dimen>
+
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="error_text_size">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+</resources>

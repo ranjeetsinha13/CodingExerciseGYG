@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/gyg_padding_4x">
+
+    <ImageView
+        android:id="@+id/reviewer_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/details_page_image_size"
+        android:contentDescription="@string/reviewer_name"
+        android:src="@android:drawable/ic_menu_gallery"
+        tools:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reviewer_image"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/gyg_padding_4x"
+        tools:text="date" />
+
+    <TextView
+        android:id="@+id/reviewer_name"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_margin="@dimen/gyg_padding_4x"
+        tools:text="@string/reviewer_name" />
+
+    <TextView
+        android:id="@+id/message"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reviewer_name"
+        android:layout_margin="@dimen/gyg_padding_4x" />
+
+
+    <TextView
+        android:id="@+id/traveller_type"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_margin="@dimen/gyg_padding_4x" />
+
+    <TextView
+        android:id="@+id/rating"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/traveller_type"
+        android:layout_margin="@dimen/gyg_padding_4x" />
+
+
+</RelativeLayout>
